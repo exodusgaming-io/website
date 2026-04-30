@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 701" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+  <defs>
+    <linearGradient id="topfade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B0814" stop-opacity="1"></stop>
+      <stop offset="35%" stop-color="#0B0814" stop-opacity="0.55"></stop>
+      <stop offset="100%" stop-color="#0B0814" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="wordfill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.06"></stop>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.18"></stop>
+    </linearGradient>
+    <radialGradient id="glow-purple" cx="0.82" cy="0.4" r="0.42">
+      <stop offset="0%" stop-color="#7B3FE4" stop-opacity="0.7"></stop>
+      <stop offset="100%" stop-color="#7B3FE4" stop-opacity="0"></stop>
+    </radialGradient>
+    <radialGradient id="glow-red" cx="0.1" cy="0.55" r="0.28">
+      <stop offset="0%" stop-color="#D52C2F" stop-opacity="0.22"></stop>
+      <stop offset="100%" stop-color="#D52C2F" stop-opacity="0"></stop>
+    </radialGradient>
+    <pattern id="grid" x="0" y="0" width="120" height="120" patternUnits="userSpaceOnUse">
+      <path d="M 120 0 L 0 0 0 120" fill="none" stroke="rgba(255,255,255,0.09)" stroke-width="1"></path>
+    </pattern>
+  </defs>
+
+  <rect width="1920" height="701" fill="url(#grid)"></rect>
+  <rect width="1920" height="701" fill="url(#glow-purple)"></rect>
+  <rect width="1920" height="701" fill="url(#glow-red)"></rect>
+
+  
+  <line x1="225" y1="80" x2="225" y2="430" stroke="#D52C2F" stroke-width="1.5" opacity="0.75"></line>
+  <line x1="1660" y1="60" x2="1660" y2="240" stroke="#9F6BFF" stroke-width="1.5" opacity="0.65"></line>
+
+  
+  <text x="960" y="640" text-anchor="middle" font-family="&#39;Plus Jakarta Sans&#39;, &#39;Inter&#39;, system-ui, sans-serif" font-weight="700" font-size="900" letter-spacing="-40" fill="url(#wordfill)">Exodus</text>
+
+  <rect width="1920" height="701" fill="url(#topfade)"></rect>
+</svg>

@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Logs / temp
+*.log
+npm-debug.log*
+*.tmp
+*.bak
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Local assistant state
+.claude/
+CLAUDE.local.md

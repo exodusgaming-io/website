@@ -4,7 +4,7 @@
     h2 { font-size: 42px; font-weight: 500; line-height: 150%; margin: 0; }
     p { color: #ACACAC; font-size: 16px; font-weight: 400; line-height: 150%; margin: 0; }
 
-    body { margin: 0; font-family: 'Poppins'; }
+    body { margin: 0; font-family: 'Poppins'; background-color: #070A13; }
     header { padding: 16px 16px 0 16px; min-height: 1000px; background-image: url(../images/main-bg.webp); background-size: cover; background-repeat: no-repeat; background-position: center; position: relative; }
     .header-top { margin: 0 auto; display: flex; gap: 130px; border: 1px solid #FFFFFF14; padding: 8px; border-radius: 16px; width: fit-content; align-items: center; backdrop-filter: blur(4px); background-color: #01051033; }
     .logo { width: 134px; height: auto; }
@@ -86,9 +86,9 @@
     .proof-divider { width: 1px; height: 40px; background: #FFFFFF20; }
 
     /* --- Who it's for --- */
-    .who-section { max-width: 1280px; margin: 80px auto 0 auto; width: 100%; }
+    .who-section { max-width: 1280px; margin: 80px auto 80px auto; width: 100%; }
     .who-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 48px; }
-    .who-card { display: flex; flex-direction: column; gap: 16px; padding: 40px; }
+    .who-card.blur-section { display: flex; flex-direction: column; gap: 16px; padding: 40px; }
     .who-card h3 { font-size: 22px; font-weight: 600; background-image: linear-gradient(to bottom, #FFFFFF, #999999); -webkit-background-clip: text; background-clip: text; color: transparent; margin: 0; }
     .who-card-icon { font-size: 32px; }
 
@@ -189,7 +189,7 @@
         .container { padding-bottom: 200px; }
         .capabilities-grid { grid-template-columns: 1fr 1fr; }
         .integrations-grid { grid-template-columns: 1fr; }
-        .who-card { padding: 24px; }
+        .who-card.blur-section { padding: 24px; }
         .migration-proof-number { font-size: 24px; }
         .proof-number { font-size: 16px; }
     }

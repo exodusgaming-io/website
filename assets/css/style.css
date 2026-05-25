@@ -618,11 +618,16 @@ body.hide-proof .proof-bar { display: none; }
     width: 480px; margin: 48px auto 0 auto;
     display: flex; flex-direction: column; gap: 28px;
 }
-.specification-item { display: flex; gap: 14px; align-items: center; }
+.specification-item { display: flex; gap: 18px; align-items: center; }
 .specification-icon {
-    width: 90px; min-width: 90px; height: 90px;
-    background-position: center; background-repeat: no-repeat; background-size: contain;
+    width: 56px; min-width: 56px; height: 56px;
+    display: inline-flex; align-items: center; justify-content: center;
+    border-radius: 14px;
+    background: var(--grad-soft);
+    border: 1px solid var(--border);
+    color: #fff;
 }
+.specification-icon svg { width: 26px; height: 26px; color: #fff; }
 .specification-info { width: 100%; }
 .specification-title {
     font-size: 22px;

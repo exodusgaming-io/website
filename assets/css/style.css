@@ -83,12 +83,7 @@ body.no-anim [data-anim] { opacity: 1 !important; transform: none !important; tr
    Header / Hero
    ============================================================= */
 header {
-    padding: 16px 16px 0 16px;
-    min-height: 1000px;
-    background-image: url(../images/main-bg.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center top;
+    padding: 16px 16px 80px 16px;
     position: relative;
 }
 header::before {
@@ -308,26 +303,6 @@ body.hide-proof .proof-bar { display: none; }
     color: var(--text);
     line-height: 1.4;
     max-width: 180px;
-}
-
-/* Header bottom decorative */
-.header-bottom {
-    height: 480px;
-    background-image: url(../images/header-bottom.webp);
-    background-size: 850px;
-    background-repeat: no-repeat;
-    background-position: top 80px center;
-    position: relative;
-    margin-top: 60px;
-}
-.header-bottom::after {
-    content: '';
-    position: absolute;
-    left: -16px;
-    bottom: 0;
-    height: 500px;
-    width: calc(100% + 32px);
-    background-image: linear-gradient(to bottom, transparent 30%, var(--bg) 70%);
 }
 
 /* =============================================================
@@ -968,7 +943,6 @@ body.hide-proof .proof-bar { display: none; }
     nav { display: none; }
     .header-top { width: calc(100% - 16px); justify-content: space-between; gap: 12px; }
     .hero { padding-top: 80px; }
-    .header-bottom { height: 380px; background-size: 700px; }
     .six-section, .capabilities-section, .seven-section, .integrations-section, .eight-section { margin-top: 100px; }
     .specifications { width: 100%; }
     .who-cards { grid-template-columns: 1fr; }
@@ -980,14 +954,13 @@ body.hide-proof .proof-bar { display: none; }
 }
 @media screen and (max-width: 480px) {
     html, body { overflow-x: hidden; }
-    header { padding: 8px 8px 0 8px; min-height: auto; }
+    header { padding: 8px 8px 40px 8px; }
     h1 { font-size: 38px; line-height: 1.1; }
     h2 { font-size: 22px; }
     .hero { padding-top: 56px; }
     .header-description { font-size: 14px; }
     .header-buttons .btn { width: 100%; }
     .header-buttons { flex-direction: column; align-items: stretch; }
-    .header-bottom { background-size: 130%; height: 280px; }
     .one-section, .two-section, .three-section, .five-section { height: auto; padding-right: 24px; }
     .pillars-stack .blur-section { padding: 24px; padding-top: 84px; min-height: 0; }
     .one-section p, .five-section p { max-width: 100%; }

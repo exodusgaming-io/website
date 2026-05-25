@@ -533,7 +533,7 @@ body.hide-proof .proof-bar { display: none; }
 .logo-slider-container {
     transform: translate3d(0, 0, 0);
     position: relative; overflow: hidden;
-    animation: moveSlideshow 30s linear infinite;
+    animation: moveSlideshow 80s linear infinite;
     display: flex; width: max-content; min-width: 200%;
     flex-shrink: 0;
 }
@@ -555,7 +555,11 @@ body.hide-proof .proof-bar { display: none; }
 }
 .partner-pill img {
     width: 28px; height: 28px;
-    border-radius: 50%; object-fit: cover; background: #fff;
+    border-radius: 6px;
+    object-fit: contain;
+    background: #fff;
+    padding: 3px;
+    box-sizing: border-box;
     flex-shrink: 0;
 }
 .partner-pill:hover { color: #fff; background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.22); }
